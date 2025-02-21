@@ -1,0 +1,78 @@
+{
+    "Volumes": [
+        {
+            "Attachments": [],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2025-02-21T13:56:39.819000+00:00",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0b81fd036870f1179",
+            "Iops": 3000,
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2025-02-20T20:42:49+00:00",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-06f08094d27d2c78f",
+                    "State": "attached",
+                    "VolumeId": "vol-09a2cb2622d73cf91",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1a",
+            "CreateTime": "2025-02-20T20:42:49.540000+00:00",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-0f692dda8e6a338fc",
+            "State": "in-use",
+            "VolumeId": "vol-09a2cb2622d73cf91",
+            "Iops": 3000,
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2025-02-20T19:48:46+00:00",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-0f2afcce9c3c69d30",
+                    "State": "attached",
+                    "VolumeId": "vol-038c252b9f42b0801",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "us-east-1e",
+            "CreateTime": "2025-02-20T19:48:46.663000+00:00",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-0f692dda8e6a338fc",
+            "State": "in-use",
+            "VolumeId": "vol-038c252b9f42b0801",
+            "Iops": 3000,
+            "VolumeType": "gp3",
+            "MultiAttachEnabled": false,
+            "Throughput": 125
+        }
+    ],
+    "ResponseMetadata": {
+        "RequestId": "aa956efe-80bb-4378-bc7c-ba81716696cd",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "aa956efe-80bb-4378-bc7c-ba81716696cd",
+            "cache-control": "no-cache, no-store",
+            "strict-transport-security": "max-age=31536000; includeSubDomains",
+            "content-type": "text/xml;charset=UTF-8",
+            "content-length": "2041",
+            "date": "Fri, 21 Feb 2025 13:56:54 GMT",
+            "server": "AmazonEC2"
+        },
+        "RetryAttempts": 0
+    }
+}
