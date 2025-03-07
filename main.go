@@ -42,6 +42,8 @@ func buildInstance(instance types.Instance, reservation *types.Reservation) Ec2I
 	return i_instance
 }
 
+func buildVolume(volume types.Volume)
+
 // struct para armazenar os dados nescessarios de EC2
 type Ec2Instance struct {
 	AccountID string
